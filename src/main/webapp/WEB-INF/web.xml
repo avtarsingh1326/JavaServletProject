@@ -18,6 +18,16 @@
   		<servlet-name>Portfolio</servlet-name>
   		<servlet-class>com.app.servlet.Portfolio</servlet-class>
   </servlet>
+  <servlet>
+  		<servlet-name>FormServlet</servlet-name>
+  		<servlet-class>com.app.servlet.FormServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  		<servlet-name>Servlet2</servlet-name>
+  		<servlet-class>com.app.servlet.Servlet2</servlet-class>
+  </servlet>
+  
   
   
   <servlet-mapping>
@@ -29,5 +39,13 @@
   		<url-pattern>/Portfolio</url-pattern>
   </servlet-mapping>
   
+  <servlet-mapping>
+  		<servlet-name>FormServlet</servlet-name>
+  		<url-pattern>/FormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  		<servlet-name>Servlet2</servlet-name>
+  		<url-pattern>/Servlet2</url-pattern>
+  </servlet-mapping>
   
 </web-app>
